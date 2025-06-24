@@ -6,13 +6,13 @@
 cd Tomateiro
 ```
 - Execute o comando
-  ```
-  npm install
-  ```
+```
+npm install
+```
 - Execute o programa com
-  ```
-  npm run dev
-  ```
+```
+npm run dev
+```
 
 # React + Vite
 
