@@ -2,11 +2,17 @@
 
 - Clone o repositório utilizando o link `https://github.com/Drakher/Tomateiro.git`
 - Acesse a pasta do repositório:
-```cd Tomateiro ```
+```
+cd Tomateiro
+```
 - Execute o comando
-  ```npm install```
+  ```
+  npm install
+  ```
 - Execute o programa com
-  ```npm run dev```
+  ```
+  npm run dev
+  ```
 
 # React + Vite
 
