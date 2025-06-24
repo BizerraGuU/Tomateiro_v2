@@ -1,3 +1,13 @@
+# Como executar o código
+
+- Clone o repositório utilizando o link `https://github.com/Drakher/Tomateiro.git`
+- Acesse a pasta do repositório:
+```cd Tomateiro ```
+- Execute o comando
+  ```npm install```
+- Execute o programa com
+  ```npm run dev```
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
