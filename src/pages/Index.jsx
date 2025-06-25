@@ -28,6 +28,7 @@ export default function TimerPage() {
 
     intervalRef.current = setInterval(() => {
       setTime((prev) => prev - 1)
+      if(setTime === 0){toggleMode()}
     }, 1000)
 
     return () => clearInterval(intervalRef.current)
