@@ -22,15 +22,20 @@ export default function TimerPage() {
       setTime(25 * 60)
     }
   }, [])
-
+  
   useEffect(() => {
     if (!isRunning) return
-
+  
     intervalRef.current = setInterval(() => {
-      setTime((prev) => prev - 1)
-      if(prev === 0){toggleMode()}
+      setTime((prev) => {
+        if (prev <= 1) {
+          toggleMode()
+          return 0 // Garante que o tempo não fique negativo
+        }
+        return prev - 1
+      })
     }, 1000)
-
+  
     return () => clearInterval(intervalRef.current)
   }, [isRunning])
 
